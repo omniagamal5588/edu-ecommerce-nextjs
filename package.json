@@ -9,14 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.24"
+    "@clerk/nextjs": "^6.12.8",
+    "@react-email/components": "0.0.34",
+    "@stripe/react-stripe-js": "^3.5.1",
+    "@stripe/stripe-js": "^6.1.0",
+    "axios": "^1.8.3",
+    "lucide-react": "^0.482.0",
+    "next": "14.2.24",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "resend": "^4.2.0",
+    "stripe": "^17.7.0"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "@types/node": "22.13.13",
+    "@types/react": "19.0.12",
     "eslint": "^8",
-    "eslint-config-next": "14.2.24"
+    "eslint-config-next": "14.2.24",
+    "postcss": "^8",
+    "react-email": "4.0.2",
+    "tailwindcss": "^3.4.1"
   }
 }
